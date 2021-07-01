@@ -1,0 +1,43 @@
+.up-img-app {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.up-img-it {
+  width: 216rpx;
+  height: 216rpx;
+  margin: 10rpx;
+  position: relative;
+}
+
+.img-it-src {
+  width: 100%;
+  height: 100%;
+}
+
+.it-del-btn {
+  position: absolute;
+  background: rgb(0, 0, 0);
+  opacity: 0.5;
+  width: 40rpx;
+  height: 40rpx;
+  top: 0rpx;
+  right: 0rpx;
+}
+
+.it-del-icon {
+  width: 100%;
+  height: 100%;
+}
+
+.it-opt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #F1F1F1;
+}
+
+.img-it-opt {
+  width: 100rpx;
+  height: 100rpx;
+}

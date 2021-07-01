@@ -1,0 +1,10 @@
+<view class="nav-bar" style="height:{{navBarHeight}}px;">
+  <view bindtap="toBack" class="nav-reback"
+    style="height:{{menuHeight}}px; min-height:{{menuHeight}}px; line-height:{menuHeight}}px; left:{{menuRight}}px; bottom:{{menuBotton}}px;">
+    <image src="/pages/resource/images/back.png"></image>
+  </view>
+  <view class="title"
+    style="height:{{menuHeight}}px; min-height:{{menuHeight}}px; line-height:{menuHeight}}px; left:{{menuRight}}px; bottom:{{menuBotton}}px;">
+    <text>{{defaultData.title}}</text>
+  </view>
+</view>

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "upload-image":"/components/upload-image/upload-image"
+  },
+  "navigationBarTitleText":"图片上传"
+}

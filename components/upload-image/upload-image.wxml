@@ -1,0 +1,14 @@
+<view class="up-img-app">
+  <block wx:for="{{imageList}}" wx:for-index="index" wx:for-item="item" wx:key="url">
+    <view class="up-img-it">
+      <image mode="aspectFill" class="img-it-src" src="{{item}}" bindtap="toPreviewPage" data-current='{{item}}'>
+      </image>
+      <view class="it-del-btn" bindtap="delImag" data-index='{{index}}'>
+        <image class="it-del-icon" src="/resource/images/clone.png"></image>
+      </view>
+    </view>
+  </block>
+  <view class="up-img-it it-opt" wx:if="{{!isOverLimit}}" bindtap="getLocalImage">
+    <image class="img-it-opt" src="/resource/images/upload-none.png"></image>
+  </view>
+</view>

@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "navigation-bar":"/components/navigation-image/navigation-image"
+  },
+  "navigationBarTextStyle":"white",
+  "navigationStyle": "custom"
+}

@@ -1,0 +1,15 @@
+.content {
+  background: #FFF;
+}
+
+.upload-image {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20rpx;
+}
+
+.image-item {
+  width: 200rpx;
+  height: 200rpx;
+  background: #dbdbdb;
+}

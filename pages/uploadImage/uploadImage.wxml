@@ -1,0 +1,5 @@
+<view class="content">
+  <view class="upload-image">
+    <upload-image imageList="{{imageList}}" bindimageChange="bindChangeImage"></upload-image>
+  </view>
+</view>
